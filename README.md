@@ -1,4 +1,4 @@
-# Mediyap
+# MediYap
 
 A Rust library for decoding medical terminology into plain English by breaking down prefixes, suffixes, and root words.
 
@@ -8,6 +8,7 @@ A Rust library for decoding medical terminology into plain English by breaking d
 - (fairly) Extensive dictionary of medical prefixes, suffixes, and roots
 - Zero dependencies
 - Well-tested
+- Incredible cli
 
 ## Installation
 
@@ -35,6 +36,34 @@ fn main() {
     println!("{}", decoder.decode("nephritis"));
     // Output: kidney inflammation
 }
+```
+
+### As a CLI Tool
+
+After installation, you can use the `mediyap` command:
+
+```bash
+# Decode a single term
+mediyap hypoglycemia
+# Output: hypoglycemia: low glucose/sugar presence in blood
+
+# Decode multiple terms
+mediyap tachycardia bradycardia nephritis
+# Output:
+# tachycardia: fast heart
+# bradycardia: slow heart
+# nephritis: kidney inflammation
+
+# Interactive mode (no arguments)
+mediyap
+# MediYap - Interactive Mode
+# Enter medical terms to decode (Ctrl+D or Ctrl+C to exit):
+#
+# > hypoglycemia
+# → low glucose/sugar presence in blood
+#
+# > arthritis
+# → joint inflammation
 ```
 
 ## Examples

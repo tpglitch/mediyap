@@ -1,4 +1,4 @@
-//! # Mediyap
+//! # MediYap
 //!
 //! A Rust crate for decoding medical terminology into plain English.
 //!
@@ -33,7 +33,6 @@
 //! - **Prefixes**: hypo- (low), hyper- (high), brady- (slow), tachy- (fast)
 //! - **Suffixes**: -emia (presence in blood), -itis (inflammation), -penia (deficiency)
 //! - **Roots**: glyc (glucose), card (heart), nephr (kidney), hem (blood)
-
 use std::collections::HashMap;
 
 pub struct MedicalDecoder {
