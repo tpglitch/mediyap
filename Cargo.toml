@@ -1,0 +1,12 @@
+[package]
+name = "mediyap"
+authors = ["Tyler Kinney <tylerkinney50@gmail.com>"]
+version = "0.1.0"
+edition = "2024"
+description = "A library for decoding medical terminology into plain English"
+license = "MIT"
+repository = "https://github.com/tpglitch/mediyap"
+keywords = ["medical", "terminology", "healthcare", "decoder"]
+categories = ["text-processing", "science"]
+
+[dependencies]
