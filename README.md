@@ -15,7 +15,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-mediyap = "0.1.0"
+mediyap = "0.1.1"
 ```
 
 ## Usage
