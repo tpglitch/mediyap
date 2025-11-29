@@ -21,6 +21,9 @@ fn main() {
         let stdin = io::stdin();
         let mut stdout = io::stdout();
 
+        print!("> ");
+        stdout.flush().unwrap();
+
         for line in stdin.lock().lines() {
             match line {
                 Ok(term) => {
