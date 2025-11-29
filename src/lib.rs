@@ -8,7 +8,7 @@
 //! ## Examples
 //!
 //! ```
-//! use medical_decoder::MedicalDecoder;
+//! use mediyap::MedicalDecoder;
 //!
 //! let decoder = MedicalDecoder::new();
 //!
