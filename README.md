@@ -21,7 +21,7 @@ mediyap = "0.1.0"
 ## Usage
 
 ```rust
-use medical_decoder::MedicalDecoder;
+use mediyap::MedicalDecoder;
 
 fn main() {
     let decoder = MedicalDecoder::new();
